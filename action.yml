@@ -13,7 +13,4 @@ runs:
       with:
         dev-hub-auth-url: ${{ inputs.dev-hub-auth-url }}
         org-name: feature
-        flow-name: build_feature_test_package
-        commit-status-name: "Build Feature Test Package"
-        commit-status-regex: "04t[a-zA-Z0-9]*"
-        commit-status-description-prefix: "version_id: "
+        flow-name: ci_feature_2gp
